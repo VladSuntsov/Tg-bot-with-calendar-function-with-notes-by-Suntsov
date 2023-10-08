@@ -1,5 +1,6 @@
 import os
 
+
 def main_menu():
     print('Меню')
     print('Если хотите создать заметку нажмите 1')
