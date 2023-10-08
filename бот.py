@@ -37,8 +37,6 @@ def create_note():
     build_note(note_text, note_name)
 
 
-
-
 def read_note(note_name):
     note_name = input("Введите название заметки: ")
     if os.path.isfile(note_name):
@@ -69,4 +67,3 @@ def delete_note(note_name):
         os.remove(note_name)
     else:
         print('Заметка не найдена')
-
